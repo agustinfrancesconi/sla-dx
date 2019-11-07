@@ -1,0 +1,14 @@
+{
+    "name": "test-project",
+    "version": "1.0.0",
+    "description": "test project",
+    "main": "script.js",
+    "dependencies": {
+        "csv-parse": "^4.4.3",
+        "fs": "0.0.1-security",
+        "moment": "^2.24.0",
+        "moment-range": "^4.0.2",
+        "momentjs": "^2.0.0"
+    },
+    "devDependencies": {}
+}
