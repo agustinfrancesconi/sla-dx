@@ -5,10 +5,12 @@
     "main": "script.js",
     "dependencies": {
         "csv-parse": "^4.4.3",
+        "csvtojson": "^2.0.10",
         "fs": "0.0.1-security",
         "moment": "^2.24.0",
         "moment-range": "^4.0.2",
-        "momentjs": "^2.0.0"
+        "momentjs": "^2.0.0",
+        "path": "^0.12.7"
     },
     "devDependencies": {}
 }
