@@ -160,10 +160,23 @@ csv()
 
     console.log("Promedio general total: ", ((promediototalbr+promediototalhisp)*100)/(promediototaltotalhisp + promediototaltotalbr) );
     console.log("Promedio general Hispanos: ", (promediototalhisp*100)/promediototaltotalhisp);
+    console.log("Total Hispanos: ", promediototaltotalhisp);
+    console.log("Total Hispanos IN: ", promediototalhisp);
+    console.log("Total Hispanos OUT: ", promediototaltotalhisp - promediototalhisp);
+
+    console.log('-----------------------------------')
     console.log("Promedio general Brasil: ", (promediototalbr*100)/promediototaltotalbr);
+    console.log("Total Brasil: ", promediototaltotalbr);
+    console.log("Total Brasil IN: ", promediototalbr);
+    console.log("Total Brasil OUT: ", promediototaltotalbr - promediototalbr);
+    console.log('-----------------------------------')
+
+
 
     console.log("Semana a semana hispanos:")
     console.log(dataSumadaHispanos);
+    console.log('-----------------------------------')
+
     console.log("Semana a semana Brasil:")
     console.log(dataSumadaBrasil);
 })
